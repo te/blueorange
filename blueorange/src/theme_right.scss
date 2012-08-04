@@ -280,15 +280,15 @@ ul#topmenu li{
 }
 
 ul#topmenu li.active a:before, ul#topmenu li.submenuhover a:before{
-	box-shadow:2px 2px 0 2px #FAFAFA;
+	box-shadow:2px 2px 0 2px #FFFFFF;
 /*php
-	box-shadow: <?php echo ($left=='right')? '-':''; ?>2px 2px 0 2px #FAFAFA
+	box-shadow: <?php echo ($left=='right')? '-':''; ?>2px 2px 0 2px #FFFFFF
 php*/	
 }
 ul#topmenu li.active a:after, ul#topmenu li.submenuhover a:after{
- box-shadow:-2px 2px 0 2px #FAFAFA;
+ box-shadow:-2px 2px 0 2px #FFFFFF;
 /*php
-  box-shadow: <?php echo ($left=='right')? '':'-'; ?>2px 2px 0 2px #FAFAFA
+  box-shadow: <?php echo ($left=='right')? '':'-'; ?>2px 2px 0 2px #FFFFFF
 php*/
 }
 
